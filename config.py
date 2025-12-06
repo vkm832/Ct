@@ -40,15 +40,15 @@ API_KEY = getenv("API_KEY", "30DxNexGenBots6ac4cd")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DarkAarush/wynk ",
+    "https://github.com/vkm832/Mr",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LavBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TgMusicBots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotADDA")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BOTADA")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -88,16 +88,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/dtfkk5.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/dqz9jk.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://ibb.co/pr3zDx6c"
+    "PING_IMG_URL", "https://files.catbox.moe/dqz9jk.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/g25ujr.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/6b5fd4.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/j94hws.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/j94hws.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/b4qkig.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/hqfslg.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/dqz9jk.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/hqfslg.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/hqfslg.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/hqfslg.jpg"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/j94hws.jpg"
 YOUTUBE_IMG_URL = "https://files.catbox.moe/g25ujr.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/b4qkig.jpg"
